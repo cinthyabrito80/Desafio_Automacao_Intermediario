@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-09-26T22:42:05.902073" rpa="false" schemaversion="5">
+<suite id="s1" name="Cadastro" source="C:\AuthTreinamento\AutomacaoWeb\AuthRobotFramework\Desafio_Automacao_Intermediario\test\features\cadastro.robot">
+<test id="s1-t1" name="Criação de Conta no Marketplace" line="6">
+<kw name="Acessa Pagina Marketplace" owner="cadastro_kws">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-09-26T22:42:06.854238" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\AuthTreinamento\\AutomacaoWeb\\AuthRobotFramework\\Desafio_Automacao_Intermediario\\test\\Results\\browser\\traces\\d8e78194-5c1e-4694-8b4e-27782acdd1fd"}</msg>
+<msg time="2024-09-26T22:42:07.217688" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\AuthTreinamento\\AutomacaoWeb\\AuthRobotFramework\\Desafio_Automacao_Intermediario\\test\\Results\\browser\\traces\\d8e78194-5c1e-4694-8b4e-27782acdd1fd"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-09-26T22:42:06.854238" elapsed="0.363450"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-09-26T22:42:09.716157" level="INFO">Successfully initialized new page object and opened url: https://automationtest.shop/index.php</msg>
+<msg time="2024-09-26T22:42:09.716157" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<arg>wait_until=load</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-09-26T22:42:07.217688" elapsed="2.498469"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-09-26T22:42:09.761702" level="INFO">Waited for Element with selector css=a.login at state visible</msg>
+<arg>${sign_in}</arg>
+<arg>visible</arg>
+<arg>10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-09-26T22:42:09.717157" elapsed="0.044545"/>
+</kw>
+<doc>Acessar a página Marketplace</doc>
+<status status="PASS" start="2024-09-26T22:42:06.853136" elapsed="2.908566"/>
+</kw>
+<kw name="Clicar no link Sign in" owner="cadastro_kws">
+<kw name="Click" owner="Browser">
+<msg time="2024-09-26T22:42:09.763701" level="INFO">Clicks the element 'css=a.login'.</msg>
+<arg>${sign_in}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-09-26T22:42:09.762700" elapsed="0.460757"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-09-26T22:42:10.483570" level="INFO">Waited for Element with selector xpath=//form[@id='create-account_form'] at state visible</msg>
+<arg>${create_account_form}</arg>
+<arg>visible</arg>
+<arg>10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-09-26T22:42:10.223457" elapsed="0.260113"/>
+</kw>
+<doc>Clicar no link Sign in</doc>
+<status status="PASS" start="2024-09-26T22:42:09.762700" elapsed="0.720870"/>
+</kw>
+<kw name="Inserir Endereco de Email" owner="cadastro_kws">
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-09-26T22:42:10.484619" level="INFO">Fills the text 'test_user@example.com' in the given field.</msg>
+<arg>${email_create_field}</arg>
+<arg>test_user@example.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-09-26T22:42:10.484619" elapsed="0.022416"/>
+</kw>
+<doc>Insere o email para criar uma nova conta</doc>
+<status status="PASS" start="2024-09-26T22:42:10.483570" elapsed="0.023465"/>
+</kw>
+<kw name="Clicar Botao Create Account" owner="cadastro_kws">
+<kw name="Click" owner="Browser">
+<msg time="2024-09-26T22:42:10.509106" level="INFO">Clicks the element 'id=SubmitCreate'.</msg>
+<arg>${submit_create_button}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-09-26T22:42:10.508037" elapsed="0.067139"/>
+</kw>
+<doc>Clica no botão de criação de conta</doc>
+<status status="PASS" start="2024-09-26T22:42:10.507035" elapsed="0.068141"/>
+</kw>
+<kw name="Fechar navegador" owner="cadastro_kws">
+<kw name="Close Browser" owner="Browser">
+<msg time="2024-09-26T22:42:10.851637" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-26T22:42:10.576176" elapsed="0.276467"/>
+</kw>
+<doc>Fecha o navegador ao final do teste</doc>
+<status status="PASS" start="2024-09-26T22:42:10.576176" elapsed="0.276467"/>
+</kw>
+<doc>Teste de criação de conta na página Marketplace</doc>
+<status status="PASS" start="2024-09-26T22:42:06.850136" elapsed="4.002507"/>
+</test>
+<status status="PASS" start="2024-09-26T22:42:05.903072" elapsed="4.968094"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Cadastro">Cadastro</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test-job:
+  stage: test
+  image: python:3.9
+  before_script:
+    - pip install -r requirements.txt
+    - pip install robotframework-browser
+    - rfbrowser init
+  script:
+    - robot --outputdir results test/features/cadastro.robot

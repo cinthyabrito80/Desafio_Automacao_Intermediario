@@ -1,0 +1,67 @@
+{"level":30,"time":"2024-09-27T01:40:05.817Z","pid":17884,"hostname":"Cintia_Brito","msg":"Listening on 56238"}
+(node:17884) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-09-27T01:40:06.285Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:06.286Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:06.290Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:06.290Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:06.296Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-09-27T01:40:06.831Z","pid":17884,"hostname":"Cintia_Brito","msg":"Adding browser to stack: chromium, version: 129.0.6668.29"}
+{"level":30,"time":"2024-09-27T01:40:06.834Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-09-27T01:40:06.832Z","pid":17884,"hostname":"Cintia_Brito","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-09-27T01:40:06.839Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-09-27T01:40:06.840Z","pid":17884,"hostname":"Cintia_Brito","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-09-27T01:40:06.852Z","pid":17884,"hostname":"Cintia_Brito","msg":"Changed active context"}
+{"level":30,"time":"2024-09-27T01:40:07.156Z","pid":17884,"hostname":"Cintia_Brito","msg":"Video path: undefined"}
+{"level":30,"time":"2024-09-27T01:40:07.156Z","pid":17884,"hostname":"Cintia_Brito","msg":"Changed active page"}
+{"level":30,"time":"2024-09-27T01:40:09.794Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method newPage"}
+{"level":30,"time":"2024-09-27T01:40:09.804Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-09-27T01:40:09.804Z","pid":17884,"hostname":"Cintia_Brito","msg":"Strict mode is enabled, find Locator with css=a.login in page."}
+{"level":30,"time":"2024-09-27T01:40:09.840Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-09-27T01:40:09.847Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method click"}
+{"level":30,"time":"2024-09-27T01:40:09.848Z","pid":17884,"hostname":"Cintia_Brito","msg":"Strict mode is enabled, find Locator with css=a.login in page."}
+{"level":30,"time":"2024-09-27T01:40:10.534Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method click"}
+{"level":30,"time":"2024-09-27T01:40:10.538Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-09-27T01:40:10.539Z","pid":17884,"hostname":"Cintia_Brito","msg":"Strict mode is enabled, find Locator with xpath=//form[@id='create-account_form'] in page."}
+{"level":30,"time":"2024-09-27T01:40:10.786Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-09-27T01:40:10.796Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-09-27T01:40:10.796Z","pid":17884,"hostname":"Cintia_Brito","msg":"Strict mode is enabled, find Locator with id=email_create in page."}
+{"level":30,"time":"2024-09-27T01:40:10.820Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method fillText"}
+{"level":30,"time":"2024-09-27T01:40:10.830Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method click"}
+{"level":30,"time":"2024-09-27T01:40:10.830Z","pid":17884,"hostname":"Cintia_Brito","msg":"Strict mode is enabled, find Locator with id=SubmitCreate in page."}
+{"level":30,"time":"2024-09-27T01:40:10.894Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method click"}
+{"level":30,"time":"2024-09-27T01:40:10.899Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-09-27T01:40:10.919Z","pid":17884,"hostname":"Cintia_Brito","msg":"Removed page=91da8591-7d26-4ee7-b592-4bcb14756d39 from context=6b4d6277-3597-44b1-ba16-1bccc6ba924f page stack"}
+{"level":30,"time":"2024-09-27T01:40:11.166Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:11364:59)
+    at PlaywrightServer.setTimeout (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:11603:57)
+    at Object.onReceiveHalfClose (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-09-27T01:40:11.198Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:11.198Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:10748:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:11364:59)
+    at PlaywrightServer.setTimeout (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\index.js:11603:57)
+    at Object.onReceiveHalfClose (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\cinth\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-09-27T01:40:11.209Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:11.209Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-27T01:40:11.321Z","pid":17884,"hostname":"Cintia_Brito","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-09-27T01:40:11.321Z","pid":17884,"hostname":"Cintia_Brito","msg":"End of node method closeAllBrowsers"}
